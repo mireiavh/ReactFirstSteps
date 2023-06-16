@@ -1,0 +1,75 @@
+.testimonials_section {
+    height: 400px;
+}
+
+    .testimonials_section h2 {
+        text-align: center;
+        font-size: 70px;
+        margin-top: 20px;
+        padding-top: 70px;
+    }
+
+.efecto3d {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 100px;
+
+    }
+    .efecto__columna {
+        width: 250px;
+        height: 250px;
+        position: relative;
+        text-align: center;
+        transform-style: preserve-3d;
+        transition: .7s ease;
+        box-shadow: 0px 10px 15px -5px #FF4B63;
+        border-radius: 5px;
+
+    }
+    .contenedor {
+        margin-bottom: 30px;
+        perspective: 800;
+        cursor: pointer;
+
+    }
+    .adelante, .atras {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
+
+    }
+    .atras {
+        background: #F6F9FD;
+        transform: rotateY(180deg);
+    }
+    .contenedor:hover .efecto__columna {
+        transform: rotateY(180deg);
+    }
+    
+    @media(min-width:620px) {
+        .contenedor {
+            width: 32%;
+
+        }
+    }
+    @media(min-width:890px) {
+        .contenedor {
+            width: 22%;
+
+        }
+    }
+    @media(min-width:1024px) {
+        .efecto3d {
+            width: 1000px;
+        }
+    }
+    @media(min-width:1200px) {
+        .efecto3d {
+            width: 1200px;
+        }
+    }

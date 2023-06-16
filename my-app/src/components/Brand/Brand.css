@@ -1,0 +1,16 @@
+.brand_section {
+    margin-top: 120px;
+}
+    .brand {
+        background-color: #fff;
+        height: 240px;
+        width: 100%;
+        margin-top: 200px;
+        margin-bottom: 40px;
+        display: flex;
+    }
+    .brand_row {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }

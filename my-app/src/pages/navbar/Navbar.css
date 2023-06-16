@@ -1,0 +1,63 @@
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    min-height: 45px;
+    background-color: #F6F9FD;
+    width: 98%;
+}
+
+    .menu {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .menu ul {
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+    }
+
+    #navbar {
+        background-color: #F6F9FD;
+        justify-content: space-between;
+        box-shadow: 0px 5px 15px -5px #aaa;
+    }
+    .navbar_text ul {
+        align-items: center;
+    }
+    ul {
+        list-style-type: none;
+    }
+    .nav_click {
+        font-family: 'Open Sans', sans-serif;
+        font-size: medium;
+        font-weight: bold;
+        color: #2D2D2D;
+    }
+    .nav_click:hover {
+        color: #FF4B63;
+        text-decoration: none;
+    }
+    .nav-link dropdown-toggle {
+        color: #FF4B63;
+    }
+    .nav-link dropdown-toggle:hover {
+        color: #FF4B63;
+    }
+    .canva_navbar {
+        background-color: #F6F9FD;
+    }
+    nav a {
+        text-decoration: none;
+        color: #2D2D2D;
+        padding-right: 15px;
+        justify-content: end;
+    }
+    .logo {
+        height: 50px;
+    }
+

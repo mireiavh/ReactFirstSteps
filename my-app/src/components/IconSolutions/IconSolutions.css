@@ -1,0 +1,19 @@
+.intro_card {
+    padding-top: 30px;
+    margin-bottom: 60px;
+    margin-top: 60px;
+}
+    .card_results {
+        display: flex;
+        justify-content: space-around;
+    }
+    .card_img img {
+        height: 150px;
+        padding: 20px;
+        justify-content: space-between;
+    }
+    .card_img p {
+        font-weight: bold;
+        text-align: center;
+        justify-content: space-between;
+    }

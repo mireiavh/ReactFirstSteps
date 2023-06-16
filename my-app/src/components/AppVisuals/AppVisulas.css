@@ -1,0 +1,17 @@
+.slider_frame {
+    margin-top: 10px;
+    background-color: #E5EDF5;
+}
+.slider_flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+    .slider_w img {
+        height: 500px;
+        width: 250px;
+        padding-top: 100px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }

@@ -1,0 +1,28 @@
+.final_img img {
+    height: 550px;
+    margin-top: 100px;
+    margin-left: 130px;
+    justify-content: center;
+    padding: 10px;
+}
+.final_text p {
+    color: #8E8E8E;
+    font-size: 20px;
+    text-align: center;
+    font-weight:200;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.final_button {
+    display: flex;
+    flex-direction: row;
+}
+.final_button {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 30px;
+}

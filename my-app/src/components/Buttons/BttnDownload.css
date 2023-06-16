@@ -1,0 +1,70 @@
+
+.bttnDownload {
+    text-decoration: none;
+    color: #F6F9FD;
+    background-color: #FF4B63;
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    transition: 0.2s;
+    border-radius: 30px;
+    border-color: solid ;
+    padding: 10px 30px;
+}
+.bttnDownload:hover {
+    text-decoration: none;
+    color: #FF4B63;
+    background-color: #F6F9FD;
+    box-shadow: 0 0 10px #FF4B63;
+    border-style:solid;
+    border-radius: 30px;
+    padding: 8px 27px;
+}
+/*.bttnPurple {
+    background-color: rgb(193, 163, 232);
+}*/
+
+.bttnBlack {
+    text-decoration: none;
+    color: #F6F9FD;
+    background-color: #2D2D2D;
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    transition: 0.2s;
+    border-radius: 30px;
+    padding: 10px 30px;
+    margin-left: 20px;
+}
+.bttnBlack:hover {
+    text-decoration: none;
+    color: #2D2D2D;
+    background-color: #F6F9FD;
+    box-shadow: 0 0 10px #2D2D2D;
+    border-style:solid;
+    border-radius: 30px;
+    padding: 8px 27px;
+}
+
+.bttnPurple {
+    text-decoration: none;
+    color: #F6F9FD;
+    background-color: #AD85EB;
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    transition: 0.2s;
+    border-radius: 0px;
+    padding: 10px 30px;
+    margin-left: 20px;
+}
+.bttnPurple:hover {
+    text-decoration: none;
+    color: #AD85EB;
+    background-color: #F6F9FD;
+    box-shadow: 0 0 10px #AD85EB;
+    border-style:solid;
+    border-radius: 0px;
+    padding: 8px 27px;
+}
+
